@@ -1,0 +1,198 @@
+---
+import { Image } from "astro:assets";
+import logo from "../images/hoppscotch.svg";
+import blue from "../images/bluesky.svg"
+import doc from "../images/docusaurus.svg"
+import elem from "../images/elementor.svg"
+import front from "../images/front.svg"
+import github from "../images/github.svg"
+import neon from "../images/neon.svg"
+import pinia from "../images/pinia.svg"
+import plat from "../images/platzi.svg"
+import slack from "../images/slack.svg"
+import warp from "../images/warp.svg"
+import sergio from "../images/sergio.jpg"
+import mubariz from "../images/mubariz.jpg"
+import camp from "../images/campbell.jpg"
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<meta name="generator" content={Astro.generator} />
+		<title></title>
+	</head>
+
+	<body class=" font-grotesk text-white bg-black ">
+
+		<nav class=" bg-slate-950 p-4 w-full">
+
+			<div class="container mx-auto flex justify-between items-center">
+
+				<div class="text-white text-xl font-bold flex items-center">
+					<Image src={logo} alt="logo" width={50} height={50} />
+					<h2>Cichlid Softwares</h2>
+				</div>
+
+				<div>
+					<ul class="flex space-x-4">
+						<li><a href="#" class="text-white hover:text-gray-300">Home</a></li>
+						<li><a href="#" class="text-white hover:text-gray-300">About</a></li>
+						<li><a href="#" class="text-white hover:text-gray-300">Services</a></li>
+						<li><a href="#" class="text-white hover:text-gray-300">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+
+		<!-- container  -->
+		<div class=" mt-64 mx-auto text-center w-2/4 ">
+			<h1 class=" text-7xl font-bold">Cichlid Softwares</h1>
+			<p class=" mt-10 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+				Molestias nihil quibusdam atque cumque est consequuntur 
+				accusantium blanditiis quisquam provident expedita libero 
+				animi voluptate nam explicabo quaerat magnam, voluptatum quia sequi.
+			</p>
+			<div class=" flex items-center justify-center mt-20 " role="button">
+				<div class=" rounded-xl bg-green-400 p-4 flex items-center text-black ">
+					Contact Us
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>
+				</div>
+			</div>
+		</div>
+
+		<!-- testimony -->
+		<div class=" mt-10 mb-20 flex flex-col gap-16 w-full">
+			<h2 class=" text-center">Trusted by</h2>
+				<ul class=" grid grid-cols-5 gap-6 justify-center ml-28 ">
+					<li>
+						<Image src={github} alt="logo" width={50} />
+					</li>
+					<li>
+						<Image src={slack} alt="logo" width={50} />
+					</li>
+					<li>
+						<Image src={warp} alt="logo" width={50} />
+					</li>
+					<li>
+						<Image src={pinia} alt="logo" width={50} />
+					</li>
+					<li>
+						<Image src={blue} alt="logo" width={50} />
+					</li>
+				</ul>
+				<ul class=" grid grid-cols-5 gap-6 justify-center ml-28 ">
+					<li>
+						<Image src={doc} alt="logo" width={50} />
+					</li>
+					<li>
+						<Image src={front} alt="logo" width={50} />
+					</li>
+					<li>
+						<Image src={elem} alt="logo" width={50} />
+					</li>
+					<li>
+						<Image src={neon} alt="logo" width={50} />
+					</li>
+					<li>
+						<Image src={plat} alt="logo" width={50} />
+					</li>
+				</ul>
+		</div>
+
+		<!-- community  -->
+		<div class=" flex items-center mt-20">
+			<div class=" max-w-full mx-auto">
+				<div class=" grid grid-cols-3 gap-4 mb-10">
+					<div class=" h-96 w-80 bg-gray-900 rounded-lg border border-gray-600 ">
+						<p class="">Rating</p>
+					</div>
+					<div class=" h-96 w-80 bg-gray-900 rounded-lg border border-gray-600 ">
+						<p class="">Services</p>
+					</div>
+					<div class=" h-96 w-80 bg-gray-900 rounded-lg border border-gray-600 ">
+						<p class="">Community</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--  support -->
+		<div class=" mt-64 mx-auto text-center w-2/4">
+			<h1 class=" font-bold text-7xl">Our Business Portfolio</h1>
+			<p class=" mt-10 text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil unde, pariatur 
+				quibusdam cumque vitae hic officia necessitatibus, accusantium esse sint 
+				quaerat voluptate aperiam quia numquam rerum eum libero quam animi.
+			</p>
+			<div class=" flex items-center justify-center mt-20 mb-10 " role="button">
+				<div class=" rounded-xl bg-green-400 p-4 flex items-center text-black ">
+					Learn about Cichlid Software Here
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>
+				</div>
+				
+			</div>
+		</div>
+
+		<!-- services  -->
+		<div class=" mt-20 mb-20 grid grid-cols-4 max-w-full w-3/4 mx-auto gap-4 justify-center ">
+			<div class=" w-40 h-40 flex justify-center items-center border border-green-400 rounded-lg hover:border-2 hover:border-white hover:shadow-lg hover:shadow-green-400 " >Machine learning</div>
+			<div class=" w-40 h-40 flex justify-center items-center border border-green-400 rounded-lg hover:border-2 hover:border-white hover:shadow-lg hover:shadow-green-400 " >Mobile Apps</div>
+			<div class=" w-40 h-40 flex justify-center items-center border border-green-400 rounded-lg hover:border-2 hover:border-white hover:shadow-lg hover:shadow-green-400 " >Fullstack WebApps</div>
+			<div class=" w-40 h-40 flex justify-center items-center border border-green-400 rounded-lg hover:border-2 hover:border-white hover:shadow-lg hover:shadow-green-400 " >ERP Systems</div>
+		</div>
+		<div class=" mt-20 mb-20 grid grid-cols-4 max-w-full w-3/4 mx-auto gap-4 justify-center ">
+			<div class=" w-40 h-40 flex justify-center items-center border border-green-400 rounded-lg hover:border-2 hover:border-white hover:shadow-lg hover:shadow-green-400 " >Desktop Apps</div>
+			<div class=" w-40 h-40 flex justify-center items-center border border-green-400 rounded-lg hover:border-2 hover:border-white hover:shadow-lg hover:shadow-green-400 " >Chatbots</div>
+			<div class=" w-40 h-40 flex justify-center items-center border border-green-400 rounded-lg hover:border-2 hover:border-white hover:shadow-lg hover:shadow-green-400 " >API design</div>
+			<div class=" w-40 h-40 flex justify-center items-center border border-green-400 rounded-lg hover:border-2 hover:border-white hover:shadow-lg hover:shadow-green-400 " >Custom design</div>
+		</div>
+
+		<!-- testimoial -->
+		<h2 class=" text-center mb-10 ">What our customers say</h2>
+		<div class=" flex gap-4 justify-center items-center mb-10 ">
+			<div class=" w-96 h-64 border border-gray-500 rounded-xl text-center">
+				<h2 class=" text-xl mt-6 font-grotesk">They offer excellent services and customer support at very competitive prices.</h2>
+				<Image 
+				src={sergio} 
+				alt="image" 
+				class="mt-4 relative inline-block h-[58px] w-[58px] !rounded-full object-cover object-center " 
+				/>
+				<h6 class="block mt-4 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-inherit">
+					Tania Andrew
+				</h6>
+			</div>
+			<div class=" w-96 h-64 border border-gray-500 rounded-xl text-center">
+				<h2 class=" text-xl mt-6 font-grotesk">I was a bit skeptical about their services at first but am really glad i chose cichlid softwares.</h2>
+				<Image 
+				src={camp} 
+				alt="image" 
+				class="mt-4 relative inline-block h-[58px] w-[58px] !rounded-full object-cover object-center " 
+				/>
+				<h6 class="block mt-4 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-inherit">
+					Alexia Cunningham
+				</h6>
+			</div>
+			<div class=" w-96 h-64 border border-gray-500 rounded-xl text-center">
+				<h2 class=" text-xl mt-6 font-grotesk">Having used their sevices, I will definately approach them for my upcoming projects and systems.</h2>
+				<Image 
+				src={mubariz} 
+				alt="image" 
+				class="mt-4 relative inline-block h-[58px] w-[58px] !rounded-full object-cover object-center " 
+				/>
+				<h6 class="block mt-4 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-inherit">
+					Kevin Mubariz
+				</h6>
+			</div>
+			
+		</div>
+		
+	</body>
+</html>
