@@ -18,8 +18,8 @@ import summers from "../images/summer.svg"
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 		<meta name="generator" content={Astro.generator} />
 		<title></title>
 	</head>
@@ -28,7 +28,7 @@ import summers from "../images/summer.svg"
 		<section class=" min-h-screen bg-yellow-100">
 
 			<div class=" w-5/6 mx-auto">
-				<nav class=" flex items-center justify-between font-bold">
+				<nav class=" hidden sm:flex items-center justify-between font-bold">
 					
 					<div class=" flex items-center mt-4">
 						<Image src={pinia} alt="logo" width={30} />
@@ -96,147 +96,152 @@ import summers from "../images/summer.svg"
 			<h2 class=" mt-10 font-bold text-4xl text-center line-clamp-3">Simplifying school management,<br> one feature at a time.</h2>
 		</div>
 
-		<div class=" grid grid-cols-1 lg:grid-cols-3 gap-2 w-5/6 mx-auto mt-10 mb-10">
+		<div class=" grid grid-cols-1 lg:grid-cols-3 gap-2 mx-auto mt-10 mb-10">
 
-			<div class=" rounded-xl border border-gray-300 w-64 ">
-				<Image class="  mx-auto mt-10" src={money} alt="camp" width={100} />
-				<div class=" text-left">
-					<h1 class="ml-4 mt-4 font-semibold ">Easy-Peasy Registration</h1>
-					<p class=" ml-4 mt-4">Sign up your child early and secure their spot for the next school year.</p>
+			<div class=" justify-center items-center flex">
+				<div class=" rounded-xl border border-gray-300 mx-auto w-64 ">
+					<Image class="  mx-auto mt-10" src={money} alt="camp" width={100} />
+					<div class=" text-left">
+						<h1 class="ml-4 mt-4 font-semibold ">Easy-Peasy Registration</h1>
+						<p class=" ml-4 mt-4">Sign up your child early and secure their spot for the next school year.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class=" rounded-xl border border-gray-300 w-64 ">
-				<Image class="  mx-auto mt-10" src={curriculum} alt="camp" width={120} />
-				<div class=" text-left">
-					<h1 class="ml-4 mt-4 font-semibold">Effortless Tuition Payment</h1>
-					<p class=" ml-4 mt-4">Sign up your child early and secure their spot for the next school year.</p>
+			<div class=" justify-center items-center flex">
+				<div class=" rounded-xl border border-gray-300 mx-auto w-64 ">
+					<Image class="  mx-auto mt-10" src={curriculum} alt="camp" width={120} />
+					<div class=" text-left">
+						<h1 class="ml-4 mt-4 font-semibold ">Easy-Peasy Registration</h1>
+						<p class=" ml-4 mt-4">Sign up your child early and secure their spot for the next school year.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class=" rounded-xl border border-gray-300 w-64 ">
-				<Image class="  mx-auto mt-10" src={summers} alt="camp" width={140} />
-				<div class=" text-left">
-					<h1 class="ml-4 mt-4 font-semibold">Family Coordination</h1>
-					<p class=" ml-4 mt-4">Easily manage all your family's school-related information in one place.</p>
+			<div class=" justify-center items-center flex">
+				<div class=" rounded-xl border border-gray-300 mx-auto w-64 ">
+					<Image class="  mx-auto mt-10" src={summers} alt="camp" width={140} />
+					<div class=" text-left">
+						<h1 class="ml-4 mt-4 font-semibold ">Easy-Peasy Registration</h1>
+						<p class=" ml-4 mt-4">Sign up your child early and secure their spot for the next school year.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class=" rounded-xl border border-gray-300 w-64 ">
-				<Image class="  mx-auto mt-10" src={summers} alt="camp" width={140} />
-				<div class=" text-left">
-					<h1 class="ml-4 mt-4 font-semibold">Connect & Share</h1>
-					<p class=" ml-4 mt-4">Foster strong school-community ties with two-way communication and informative newsletter.</p>
+			<div class=" justify-center items-center flex">
+				<div class=" rounded-xl border border-gray-300 mx-auto w-64 ">
+					<Image class="  mx-auto mt-10" src={money} alt="camp" width={100} />
+					<div class=" text-left">
+						<h1 class="ml-4 mt-4 font-semibold ">Easy-Peasy Registration</h1>
+						<p class=" ml-4 mt-4">Sign up your child early and secure their spot for the next school year.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class=" rounded-xl border border-gray-300 w-64 ">
-				<Image class="  mx-auto mt-10" src={money} alt="camp" width={100} />
-				<div class=" text-left">
-					<h1 class="ml-4 mt-4 font-semibold">Seamless Enrollment System</h1>
-					<p class=" ml-4 mt-4">Keep your student roster organized and upto date with ease.</p>
+			<div class=" justify-center items-center flex">
+				<div class=" rounded-xl border border-gray-300 mx-auto w-64 ">
+					<Image class="  mx-auto mt-10" src={money} alt="camp" width={100} />
+					<div class=" text-left">
+						<h1 class="ml-4 mt-4 font-semibold ">Easy-Peasy Registration</h1>
+						<p class=" ml-4 mt-4">Sign up your child early and secure their spot for the next school year.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class=" rounded-xl border border-gray-300 w-64 ">
-				<Image class="  mx-auto mt-10" src={curriculum} alt="camp" width={120} />
-				<div class=" text-left">
-					<h1 class="ml-4 mt-4 font-semibold">Custom Applications</h1>
-					<p class=" ml-4 mt-4">Customize your application process to fit your school's unique needs.</p>
+			<div class=" justify-center items-center flex">
+				<div class=" rounded-xl border border-gray-300 mx-auto w-64 ">
+					<Image class="  mx-auto mt-10" src={money} alt="camp" width={100} />
+					<div class=" text-left">
+						<h1 class="ml-4 mt-4 font-semibold ">Easy-Peasy Registration</h1>
+						<p class=" ml-4 mt-4">Sign up your child early and secure their spot for the next school year.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class=" rounded-xl border border-gray-300 w-64 ">
-				<Image class="  mx-auto mt-10" src={curriculum} alt="camp" width={120} />
-				<div class=" text-left">
-					<h1 class="ml-4 mt-4 font-semibold">Fun-Filled Summer Camps</h1>
-					<p class=" ml-4 mt-4">Plan and organize engaging summer camps that students love.</p>
+			<div class=" justify-center items-center flex">
+				<div class=" rounded-xl border border-gray-300 mx-auto w-64 ">
+					<Image class="  mx-auto mt-10" src={money} alt="camp" width={100} />
+					<div class=" text-left">
+						<h1 class="ml-4 mt-4 font-semibold ">Easy-Peasy Registration</h1>
+						<p class=" ml-4 mt-4">Sign up your child early and secure their spot for the next school year.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class=" rounded-xl border border-gray-300 w-64 ">
-				<Image class="  mx-auto mt-10" src={summers} alt="camp" width={140} />
-				<div class=" text-left">
-					<h1 class="ml-4 mt-4 font-semibold">Your Curriculum, Your Way</h1>
-					<p class=" ml-4 mt-4">Design and implement a curriculum that meets your educational vision.</p>
+			<div class=" justify-center items-center flex">
+				<div class=" rounded-xl border border-gray-300 mx-auto w-64 ">
+					<Image class="  mx-auto mt-10" src={summers} alt="camp" width={140} />
+					<div class=" text-left">
+						<h1 class="ml-4 mt-4 font-semibold ">Your Curriculum, Your Way</h1>
+						<p class=" ml-4 mt-4">Design and implement a curriculum that meets your educational vision.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class=" rounded-xl border border-gray-300 w-64 ">
-				<Image class="  mx-auto mt-10" src={money} alt="camp" width={100} />
-				<div class=" text-left">
-					<h1 class="ml-4 mt-4 font-semibold">Insights at a Glance</h1>
-					<p class=" ml-4 mt-4">Access comprehensive reports for informed decision-making about your school.</p>
+			<div class=" justify-center items-center flex">
+				<div class=" rounded-xl border border-gray-300 mx-auto w-64 ">
+					<Image class="  mx-auto mt-10" src={money} alt="camp" width={100} />
+					<div class=" text-left">
+						<h1 class="ml-4 mt-4 font-semibold ">Insights at a Glance</h1>
+						<p class=" ml-4 mt-4">Access comprehensive reports for informed decision-making about your school.</p>
+					</div>
 				</div>
 			</div>
 
 		</div>
 
-		<section class=" min-h-screen bg-yellow-100">
-				<h1 class=" text-4xl font-bold text-center">Clear, simple pricing</h1>
-				<div class=" block mt-20 lg:flex gap-3 items-center justify-center">
-					<div class=" h-auto max-w-96 bg-white rounded-xl">
-						<div class=" ml-4 mt-4">
-							<h1 class=" text-2xl font-medium">Starter</h1>
-							<p class=" mt-4">Ideal for small schools with upto 200<br> students.</p>
-							<h2 class=" mt-4 text-3xl font-bold">$59<span class=" text-gray-400 text-xl">/per month</span></h2>
-							<button class="py-2 px-4 border border-black bg-yellow-400 rounded-3xl mt-4 ">Get started with Starter-Kit</button>
-							<hr class=" mt-4 w-full border border-gray-200 max-auto">
-							<div class=" flex mt-4 items-center justify-center">
-								<Image src={neon} alt="logo" width={50} />
-								<div class=" block">
-									<h2 class=" ml-2 font-medium">Tuition Processing Rate</h2>
-									<p class=" ml-2">A flat free of 1% on tuition payments</p>
-								</div>
-							</div>
-							<div class=" flex mt-4 items-center justify-center">
-								<Image src={logo} alt="logo" width={50} />
-								<div class=" block">
-									<h2 class=" ml-2 font-medium">Tools</h2>
-									<p class=" ml-2 ">Just the basic tools to get you going</p>
-								</div>
-							</div>
-							<div class=" flex mt-4 items-center justify-center mb-4">
-								<Image src={neon} alt="logo" width={50} />
-								<div class=" block">
-									<h2 class=" ml-2 font-medium">Support</h2>
-									<p class=" ml-2">Email support with 48-hour response</p>
-								</div>
-							</div>
+		<section class=" min-h-screen">
+			<h1 class=" text-center text-2xl font-bold">Clear and Simple Pricing</h1>
+			<div class=" block sm:flex items-center justify-center gap-2">
+				<div class=" h-96 w-80 bg-gray-200 mt-10 rounded-xl">
+					<div class=" ml-4">
+						<h1 class=" mt-4 text-2xl">Starter</h1>
+						<p class=" mt-2">Ideal for small schools with upto 100 students.</p>
+						<h2 class=" mt-2 text-3xl font-bold">$59<span class=" font-normal text-sm text-gray-700"> /per month</span></h2>
+						<button class=" mt-2 py-2 px-4 bg-yellow-400 rounded-3xl font-semibold">Get Started with Starter-Kit</button>
+						<div class=" mt-4 mx-auto">
+							<hr class=" w-72">
 						</div>
-					</div>
-					<div class=" h-auto max-w-96 bg-green-400 rounded-xl">
-						<div class=" ml-4 mt-4">
-							<h1 class=" text-2xl font-medium">Growth</h1>
-							<p class=" mt-4">Designed for larger schools,<br> accomodating 101 students to infinity.</p>
-							<h2 class=" mt-4 text-3xl font-bold">$79<span class=" text-white text-xl">/per month</span></h2>
-							<button class="py-2 px-4 border border-black bg-yellow-400 rounded-3xl mt-4 ">Get started with Growth-Kit</button>
-							<hr class=" mt-4 w-full border border-gray-200 max-auto">
-							<div class=" flex mt-4 items-center justify-center">
-								<Image src={neon} alt="logo" width={50} />
-								<div class=" block">
-									<h2 class=" ml-2 font-medium">Tuition Processing Rate</h2>
-									<p class=" ml-2">A flat free of 1% on tuition payments</p>
-								</div>
-							</div>
-							<div class=" flex mt-4 items-center justify-center">
-								<Image src={neon} alt="logo" width={50} />
-								<div class=" block">
-									<h2 class=" ml-2 font-medium">Tools</h2>
-									<p class=" ml-2">Advanced tools and reporting soluti</p>
-								</div>
-							</div>
-							<div class=" flex mt-4 items-center justify-center mb-4">
-								<Image src={neon} alt="logo" width={50} />
-								<div class=" block">
-									<h2 class=" ml-2 font-medium">Support</h2>
-									<p class=" ml-2">Email support with 24-hour response</p>
-								</div>
-							</div>
+						<div class=" mt-4 flex">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M3.00488 3.00275H21.0049C21.5572 3.00275 22.0049 3.45046 22.0049 4.00275V20.0027C22.0049 20.555 21.5572 21.0027 21.0049 21.0027H3.00488C2.4526 21.0027 2.00488 20.555 2.00488 20.0027V4.00275C2.00488 3.45046 2.4526 3.00275 3.00488 3.00275ZM4.00488 5.00275V19.0027H20.0049V5.00275H4.00488ZM8.50488 14.0027H14.0049C14.281 14.0027 14.5049 13.7789 14.5049 13.5027C14.5049 13.2266 14.281 13.0027 14.0049 13.0027H10.0049C8.62417 13.0027 7.50488 11.8835 7.50488 10.5027C7.50488 9.12203 8.62417 8.00275 10.0049 8.00275H11.0049V6.00275H13.0049V8.00275H15.5049V10.0027H10.0049C9.72874 10.0027 9.50488 10.2266 9.50488 10.5027C9.50488 10.7789 9.72874 11.0027 10.0049 11.0027H14.0049C15.3856 11.0027 16.5049 12.122 16.5049 13.5027C16.5049 14.8835 15.3856 16.0027 14.0049 16.0027H13.0049V18.0027H11.0049V16.0027H8.50488V14.0027Z"></path></svg>
+							<h1 class=" ml-2">A flat fee of 1% on tuition payments.</h1>
+						</div>
+						<div class=" mt-4 flex">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M5.32943 3.27152C6.56252 2.83314 7.9923 3.10743 8.97927 4.0944C9.96652 5.08165 10.2407 6.51196 9.80178 7.74529L20.6465 18.5901L18.5252 20.7114L7.67936 9.86703C6.44627 10.3054 5.01649 10.0311 4.02952 9.04415C3.04227 8.0569 2.7681 6.62659 3.20701 5.39326L5.44373 7.62994C6.02952 8.21572 6.97927 8.21572 7.56505 7.62994C8.15084 7.04415 8.15084 6.0944 7.56505 5.50862L5.32943 3.27152ZM15.6968 5.15506L18.8788 3.38729L20.293 4.80151L18.5252 7.98349L16.7574 8.33704L14.6361 10.4584L13.2219 9.04415L15.3432 6.92283L15.6968 5.15506ZM8.62572 12.9332L10.747 15.0546L5.79729 20.0043C5.2115 20.5901 4.26175 20.5901 3.67597 20.0043C3.12464 19.453 3.09221 18.5792 3.57867 17.99L3.67597 17.883L8.62572 12.9332Z"></path></svg>
+							<h1 class=" ml-2">Basic management tools.</h1>
+						</div>
+						<div class=" mt-4 flex">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M19.9381 8H21C22.1046 8 23 8.89543 23 10V14C23 15.1046 22.1046 16 21 16H19.9381C19.446 19.9463 16.0796 23 12 23V21C15.3137 21 18 18.3137 18 15V9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9V16H3C1.89543 16 1 15.1046 1 14V10C1 8.89543 1.89543 8 3 8H4.06189C4.55399 4.05369 7.92038 1 12 1C16.0796 1 19.446 4.05369 19.9381 8ZM3 10V14H4V10H3ZM20 10V14H21V10H20ZM7.75944 15.7849L8.81958 14.0887C9.74161 14.6662 10.8318 15 12 15C13.1682 15 14.2584 14.6662 15.1804 14.0887L16.2406 15.7849C15.0112 16.5549 13.5576 17 12 17C10.4424 17 8.98882 16.5549 7.75944 15.7849Z"></path></svg>
+							<h1 class=" ml-2">24-hour email support system.</h1>
 						</div>
 					</div>
 				</div>
+				<div class=" h-96 w-80 text-white bg-green-900 mt-10 rounded-xl">
+					<div class=" ml-4">
+						<h1 class=" mt-4 text-2xl">Growth</h1>
+						<p class=" mt-2">Designed for larger schools from 101 students to Infinity.</p>
+						<h2 class=" mt-2 text-3xl font-bold">$79<span class=" font-normal text-sm text-gray-200"> /per month</span></h2>
+						<button class=" mt-2 py-2 px-4 bg-yellow-400 rounded-3xl font-semibold">Get Started with Starter-Kit</button>
+						<div class=" mt-4 mx-auto">
+							<hr class=" w-72">
+						</div>
+						<div class=" mt-4 flex">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M3.00488 3.00275H21.0049C21.5572 3.00275 22.0049 3.45046 22.0049 4.00275V20.0027C22.0049 20.555 21.5572 21.0027 21.0049 21.0027H3.00488C2.4526 21.0027 2.00488 20.555 2.00488 20.0027V4.00275C2.00488 3.45046 2.4526 3.00275 3.00488 3.00275ZM4.00488 5.00275V19.0027H20.0049V5.00275H4.00488ZM8.50488 14.0027H14.0049C14.281 14.0027 14.5049 13.7789 14.5049 13.5027C14.5049 13.2266 14.281 13.0027 14.0049 13.0027H10.0049C8.62417 13.0027 7.50488 11.8835 7.50488 10.5027C7.50488 9.12203 8.62417 8.00275 10.0049 8.00275H11.0049V6.00275H13.0049V8.00275H15.5049V10.0027H10.0049C9.72874 10.0027 9.50488 10.2266 9.50488 10.5027C9.50488 10.7789 9.72874 11.0027 10.0049 11.0027H14.0049C15.3856 11.0027 16.5049 12.122 16.5049 13.5027C16.5049 14.8835 15.3856 16.0027 14.0049 16.0027H13.0049V18.0027H11.0049V16.0027H8.50488V14.0027Z"></path></svg>
+							<h1 class=" ml-2">A flat fee of 1% on tuition payments.</h1>
+						</div>
+						<div class=" mt-4 flex">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M5.32943 3.27152C6.56252 2.83314 7.9923 3.10743 8.97927 4.0944C9.96652 5.08165 10.2407 6.51196 9.80178 7.74529L20.6465 18.5901L18.5252 20.7114L7.67936 9.86703C6.44627 10.3054 5.01649 10.0311 4.02952 9.04415C3.04227 8.0569 2.7681 6.62659 3.20701 5.39326L5.44373 7.62994C6.02952 8.21572 6.97927 8.21572 7.56505 7.62994C8.15084 7.04415 8.15084 6.0944 7.56505 5.50862L5.32943 3.27152ZM15.6968 5.15506L18.8788 3.38729L20.293 4.80151L18.5252 7.98349L16.7574 8.33704L14.6361 10.4584L13.2219 9.04415L15.3432 6.92283L15.6968 5.15506ZM8.62572 12.9332L10.747 15.0546L5.79729 20.0043C5.2115 20.5901 4.26175 20.5901 3.67597 20.0043C3.12464 19.453 3.09221 18.5792 3.57867 17.99L3.67597 17.883L8.62572 12.9332Z"></path></svg>
+							<h1 class=" ml-2">Advanced reporting tools.</h1>
+						</div>
+						<div class=" mt-4 flex">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M19.9381 8H21C22.1046 8 23 8.89543 23 10V14C23 15.1046 22.1046 16 21 16H19.9381C19.446 19.9463 16.0796 23 12 23V21C15.3137 21 18 18.3137 18 15V9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9V16H3C1.89543 16 1 15.1046 1 14V10C1 8.89543 1.89543 8 3 8H4.06189C4.55399 4.05369 7.92038 1 12 1C16.0796 1 19.446 4.05369 19.9381 8ZM3 10V14H4V10H3ZM20 10V14H21V10H20ZM7.75944 15.7849L8.81958 14.0887C9.74161 14.6662 10.8318 15 12 15C13.1682 15 14.2584 14.6662 15.1804 14.0887L16.2406 15.7849C15.0112 16.5549 13.5576 17 12 17C10.4424 17 8.98882 16.5549 7.75944 15.7849Z"></path></svg>
+							<h1 class=" ml-2">12-hour email support system.</h1>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
+		
 		<footer class="  ">
 
 			<div class=" mt-10 flex gap-4 ">
